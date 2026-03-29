@@ -11,9 +11,9 @@
     <meta property="og:url" content="https://tuluvaguardian.github.io/tuluva-guardian/">
     
     <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
-    <meta name="twitter:card" content="summary_large_image">
-</head>
+<meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
+<meta name="twitter:card" content="summary_large_image">
+
 
     <title>The Tuluva Guardian | Official Editorial</title>
 
