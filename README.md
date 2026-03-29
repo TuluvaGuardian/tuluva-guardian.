@@ -184,7 +184,7 @@
 </head>
 <body>
 
-    <div class="news-ticker">EDITORIAL ALERT: ADVOCATING FOR TULU AS FIRST LANGUAGE STATUS IN HIGH-PERFORMANCE ZONES</div>
+    <div class="news-ticker">EDITORIAL ALERT: ADVOCATING FOR TULU AS FIRST LANGUAGE STATUS</div>
 
     <header>
         <svg class="logo-svg" viewBox="0 0 100 100">
@@ -200,5 +200,25 @@
     <main>
         <article>
             <span class="rti-badge">POLICY MANDATE</span>
-            <h1 style="font-size: 3rem; color: #fff; line-height: 1.1; margin-bottom: 20px
+            <h1 style="font-size: 3rem; color: #fff; line-height: 1.1; margin-bottom: 20px;">The SSLC 525 Shift: Why Tulu Must Be Elevated</h1>
             
+            <div class="byline">
+                Presented by <strong>The Tuluva Guardian Editorial Committee</strong>
+            </div>
+
+            <p>The restructuring of the Karnataka SSLC marks distribution—reducing the aggregate to 525—is an administrative maneuver that masks a deeper linguistic crisis. We demand that Tulu be elevated to 1st Language status immediately in high-performance taluks.</p>
+
+            <blockquote>
+                "If a language achieves a 100% success rate, it is no longer an optional subject—it is a proven asset."
+            </blockquote>
+
+            <a href="https://whatsapp.com/channel/0029Vb7Yxsg7Noa9O0Ik2k3b" class="btn">Join the Advocacy Network</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 <b>THE TULUVA GUARDIAN</b> | UDUPI, TULUNADU HQ</p>
+    </footer>
+
+</body>
+</html>
