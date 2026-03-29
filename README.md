@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Tuluva Guardian</title>
-
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="The Tuluva Guardian: Official Editorial">
-    <meta property="og:description" content="Official mandate on the SSLC 525 shift and Tulu language status.">
-    <meta property="og:url" content="https://tuluvaguardian.github.io/tuluva-guardian/">
+    <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
+<meta name="twitter:card" content="summary_large_image">
     
     <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
