@@ -9,6 +9,10 @@
             --primary-red: #8b0000; /* Heritage Deep Red */
             --text-dark: #1a1a1a;
             --bg-light: #fdfcf8; /* Paper-like background */
+
+            <meta property="og:image" content="https://tuluvaguardian.github.io/tuluva-guardian/preview.jpg">
+<meta name="twitter:image" content="https://tuluvaguardian.github.io/tuluva-guardian/preview.jpg">
+
         }
 
         body {
