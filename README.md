@@ -1,139 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.jpg">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-            <meta property="og:image" content="https://tuluvaguardian.github.io/tuluva-guardian/preview.jpg">
-<meta name="twitter:image" content="https://tuluvaguardian.github.io/tuluva-guardian/preview.jpg">
+    <title>The Tuluva Guardian | Official Editorial Bureau</title>
+    <meta name="description" content="Official statement from the Tuluva Guardian Editorial Committee regarding the SSLC 525 shift and the demand for Tulu as a First Language.">
 
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tuluvaguardian.github.io/tuluva-guardian/">
+    <meta property="og:title" content="The Tuluva Guardian: Official Editorial">
+    <meta property="og:description" content="Why Tulu must be elevated to First Language status in high-performance Taluks. Read the Mandate.">
+    <meta property="og:image" content="https://tuluvaguardian.github.io/tuluva-guardian/preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Tuluva Guardian | Editorial Bureau">
+    <meta name="twitter:description" content="The SSLC 525 Shift: A Silent Threat to Tuluva Heritage? Read our formal demand.">
+    <meta name="twitter:image" content="https://tuluvaguardian.github.io/tuluva-guardian/preview.png">
+
+    <style>
+        :root {
+            --primary-gold: #D4AF37; 
+            --background: #0A0A0A; 
+            --text: #E0E0E0; 
+            --card-bg: #121212; 
+            --rti-blue: #005B96;
         }
 
         body {
-            font-family: 'Georgia', serif;
+            font-family: 'Times New Roman', serif;
+            background-color: var(--background);
+            color: var(--text);
             margin: 0;
-            background-color: var(--bg-light);
-            color: var(--text-dark);
-            line-height: 1.6;
+            line-height: 1.8;
+        }
+
+        .news-ticker {
+            background: var(--primary-gold);
+            color: #000;
+            padding: 10px 0;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #000;
         }
 
         header {
             text-align: center;
-            padding: 40px 20px;
-            border-bottom: 3px double var(--text-dark);
+            padding: 70px 20px;
+            border-bottom: 5px double var(--primary-gold);
+            background: #000;
         }
 
-        .logo {
-            font-size: 3.5rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: -1px;
+        .logo-svg {
+            width: 110px;
+            height: 110px;
+            fill: var(--primary-gold);
+            margin-bottom: 25px;
+        }
+
+        header h1 {
+            font-size: 3.2rem;
+            color: var(--primary-gold);
             margin: 0;
-        }
-
-        nav {<div class="hero-image" style="width: 100%; height: 300px; overflow: hidden; margin-bottom: 20px;">
-    <img src="https://source.unsplash.com/featured/?coast,india,temple" 
-         alt="Tulunadu Heritage" 
-         style="width: 100%; height: 100%; object-fit: cover;">
-</div>
-;
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: 20px auto;
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 40px;
-            padding: 0 20px;
-        }
-
-        .main-story {
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 20px;
-        }
-
-        .main-story h2 {
-            font-size: 2.2rem;
-            margin-top: 10px;
-            color: var(--primary-red);
-        }
-
-        .sidebar h3 {
-            border-top: 2px solid var(--text-dark);
-            padding-top: 10px;
             text-transform: uppercase;
-            font-size: 1rem;
+            letter-spacing: 5px;
+        }
+
+        header .location-tag {
+            color: var(--text);
+            font-size: 1.2rem;
+            letter-spacing: 6px;
+            margin-top: 15px;
+            text-transform: uppercase;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 30px;
+        }
+
+        article {
+            background-color: var(--card-bg);
+            padding: 60px;
+            border: 1px solid #222;
+            box-shadow: 0 20px 50px rgba(0,0,0,1);
+        }
+
+        .rti-badge {
+            background-color: var(--rti-blue);
+            color: #fff;
+            padding: 6px 18px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            border-radius: 2px;
+            display: inline-block;
+            margin-bottom: 30px;
+            letter-spacing: 1.5px;
+        }
+
+        .byline {
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+            padding: 20px 0;
+            margin: 30px 0;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            color: var(--primary-gold);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h2 { 
+            color: var(--primary-gold); 
+            border-left: 6px solid var(--primary-gold); 
+            padding-left: 20px; 
+            margin-top: 45px;
+            font-size: 1.9rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 1.25rem;
+            text-align: justify;
+        }
+
+        blockquote {
+            background: #1a1a1a;
+            border-left: 8px solid var(--primary-gold);
+            padding: 35px;
+            font-size: 1.5rem;
+            margin: 45px 0;
+            font-style: italic;
+            color: #fff;
+        }
+
+        .demand-box {
+            background: #1b1b1b;
+            border: 2px solid var(--primary-gold);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        .demand-box h3 {
+            color: var(--primary-gold);
+            margin-top: 0;
+            text-transform: uppercase;
         }
 
         .btn {
-            background: var(--text-dark);
-            color: white;
-            padding: 10px 20px;
+            display: block;
+            background: var(--primary-gold);
+            color: #000;
+            text-align: center;
+            padding: 22px;
             text-decoration: none;
-            display: inline-block;
-            margin-top: 10px;
-            font-family: sans-serif;
-            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 50px;
+            font-size: 1.2rem;
+            letter-spacing: 3px;
+            transition: 0.3s ease;
         }
 
         footer {
             text-align: center;
-            padding: 40px;
-            margin-top: 40px;
-            background: #eee;
-            font-size: 0.8rem;
+            padding: 80px 20px;
+            font-size: 0.9rem;
+            color: #555;
+            background: #000;
+            border-top: 1px solid #222;
         }
+
+        footer b { color: var(--primary-gold); }
     </style>
 </head>
 <body>
 
+    <div class="news-ticker">EDITORIAL ALERT: ADVOCATING FOR TULU AS FIRST LANGUAGE STATUS IN HIGH-PERFORMANCE ZONES</div>
+
     <header>
-        <p style="font-style: italic; margin-bottom: 10px;">The Independent Voice of the Tulu People</p>
-        <h1 class="logo">TUULVA GUARDIAN</h1>
+        <svg class="logo-svg" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="45" stroke="var(--primary-gold)" stroke-width="2" fill="none"/>
+            <path d="M50 20 L50 80 M20 50 L80 50" stroke="var(--primary-gold)" stroke-width="5"/>
+            <circle cx="50" cy="50" r="8" fill="var(--primary-gold)"/>
+            <path d="M35 35 L65 65 M65 35 L35 65" stroke="var(--primary-gold)" stroke-width="2"/>
+        </svg>
+        <h1>The Tuluva Guardian</h1>
+        <div class="location-tag">Official Editorial Bureau | Tulunadu</div>
     </header>
 
-    <nav>
-        <span>News</span> | <span>Heritage</span> | <span>Advocacy</span> | <span>Maritime</span> | <span>About</span>
-    </nav>
-
-    <div class="container">
-        <main>
-            <article class="main-story">
-                <p style="color: var(--primary-red); font-weight: bold; margin: 0;">ADVOCACY</p>
-                <h2>The Case for Classical Status: Why Tulu’s Recognition is Overdue</h2>
-                <p>An in-depth look at the linguistic depth of Tulu and the ongoing campaign to include it in the 8th Schedule of the Constitution...</p>
-                <a href="#" class="btn">Read Full Report</a>
-            </article>
-
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px;">
-                <article>
-                    <h3>The Alupa Legacy</h3>
-                    <p>New insights into the 7th-century Pelattur inscriptions and the dynasty that shaped our coast.</p>
-                </article>
-                <article>
-                    <h3>Maritime Routes</h3>
-                    <p>Exploring the "T-Signal" hypothesis and ancient Tulu-Kadal trade networks.</p>
-                </article>
-            </div>
-        </main>
-
-        <aside class="sidebar">
-            <h3>Latest Updates</h3>
-            <p><strong>• SSLC Results:</strong> Tulu language sees 100% pass rate in 2025.</p>
-            <p><strong>• Railway Representation:</strong> New demands for Tuluva staff in regional coastal zones.</p>
+    <main>
+        <article>
+            <span class="rti-badge">POLICY MANDATE</span>
+            <h1 style="font-size: 3rem; color: #fff; line-height: 1.1; margin-bottom: 20px
             
-            <div style="background: #f0f0f0; padding: 15px; margin-top: 30px;">
-                <h3>Our Mission</h3>
-                <p>To document, preserve, and advocate for the cultural and linguistic sovereignty of Tulunadu.</p>
-            </div>
-        </aside>
-    </div>
-
-    <footer>
-        &copy; 2026 Tuulva Guardian. Dedicated to the Tulu Heritage.
-    </footer>
-
-</body>
-</html>
-
