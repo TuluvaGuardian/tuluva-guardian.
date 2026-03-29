@@ -33,16 +33,12 @@
             margin: 0;
         }
 
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 15px 0;
-            border-bottom: 1px solid #ccc;
-            font-family: 'Helvetica', sans-serif;
-            text-transform: uppercase;
-            font-size: 0.8rem;
-            font-weight: bold;
+        nav {<div class="hero-image" style="width: 100%; height: 300px; overflow: hidden; margin-bottom: 20px;">
+    <img src="https://source.unsplash.com/featured/?coast,india,temple" 
+         alt="Tulunadu Heritage" 
+         style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+;
         }
 
         .container {
