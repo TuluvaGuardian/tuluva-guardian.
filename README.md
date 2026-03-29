@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuulva Guardian | Voice of Tulunadu</title>
-    <style>
-        :root {
-            --primary-red: #8b0000; /* Heritage Deep Red */
-            --text-dark: #1a1a1a;
-            --bg-light: #fdfcf8; /* Paper-like background */
-
+    <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.jpg">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.jpg">
+    
             <meta property="og:image" content="https://tuluvaguardian.github.io/tuluva-guardian/preview.jpg">
 <meta name="twitter:image" content="https://tuluvaguardian.github.io/tuluva-guardian/preview.jpg">
 
