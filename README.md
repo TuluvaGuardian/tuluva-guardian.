@@ -4,10 +4,15 @@
     <title>The Tuluva Guardian</title>
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tuluvaguardian.github.io/tuluva-guardian/">
     <meta property="og:title" content="The Tuluva Guardian: Official Editorial">
     <meta property="og:description" content="Official mandate on the SSLC 525 shift and Tulu language status.">
+    <meta property="og:url" content="https://tuluvaguardian.github.io/tuluva-guardian/">
     
+    <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+
     <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
     <meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
     <meta name="twitter:card" content="summary_large_image">
