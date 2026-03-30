@@ -1,61 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Tuluva Guardian</title>
-
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="The Tuluva Guardian: Official Editorial">
-    <meta property="og:description" content="Official mandate on the SSLC 525 shift and Tulu language status.">
-    <meta property="og:url" content="https://tuluvaguardian.github.io/tuluva-guardian/">
     
-    <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
-    <meta name="twitter:card" content="summary_large_image">
-</head>
-
-    <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
-    <meta name="twitter:card" content="summary_large_image">
-</head>
-
-
     <title>The Tuluva Guardian | Official Editorial</title>
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tuluvaguardian.github.io/tuluva-guardian/">
     <meta property="og:title" content="The Tuluva Guardian: Official Editorial">
     <meta property="og:description" content="Official mandate on the SSLC 525 shift and Tulu language status.">
-    
     <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
-
-
+    
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tuluva-guardian/main/preview.png">
 
     <style>
-        :root { --gold: #D4AF37; --bg: #0A0A0A; --txt: #E0E0E0; }
-        body { font-family: 'Times New Roman', serif; background: var(--bg); color: var(--txt); margin: 0; line-height: 1.8; }
-        header { text-align: center; padding: 60px 20px; border-bottom: 5px double var(--gold); background: #000; }
-        h1 { color: var(--gold); text-transform: uppercase; letter-spacing: 4px; margin: 0; }
-        main { max-width: 800px; margin: 40px auto; padding: 20px; }
-        article { background: #121212; padding: 40px; border: 1px solid #222; }
-        .btn { display: block; background: var(--gold); color: #000; text-align: center; padding: 20px; text-decoration: none; font-weight: bold; margin-top: 30px; text-transform: uppercase; }
-        footer { text-align: center; padding: 40px; font-size: 0.8rem; color: #555; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>The Tuluva Guardian</h1>
-        <p style="letter-spacing: 3px;">OFFICIAL EDITORIAL BUREAU</p>
-    </header>
-    <main>
-        <article>
-            <h2 style="color:#fff; font-size: 2rem;">The SSLC 525 Shift</h2>
-            <p>We demand 1st Language status for Tulu in Tulunadu. The 100% pass rate in our taluks proves our academic excellence.</p>
-            <a href="https://whatsapp.com/channel/0029Vb7Yxsg7Noa9O0Ik2k3b" class="btn">Join the Movement</a>
-        </article>
-    </main>
-    <footer>© 2026 THE TULUVA GUARDIAN</footer>
-</body>
-</html>
+        :root {
+            --primary-gold: #D4AF37; 
+            --background: #0A0A0A; 
+            --text: #E0E0E0; 
+            --card-bg: #121212; 
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: var(--background);
+            color: var(--text);
+            margin: 0;
+            line-height: 1.8;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 4px double var(--primary-gold);
+            background: #000;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: var(--primary-gold);
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        /* THE LOCATION TAG FIX */
+        .location-tag {
+            color: #888;
+            font-size: 1rem;
+            letter-spacing: 5px;
+            margin-top: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 0 25px;
+        }
+
+        article {
+            background-color: var(--card-bg);
+            padding: 50px;
+            border: 1px solid #1a1a1a;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+        }
+
+        h2 { 
+            color: var(--primary-gold); 
+            font-size: 2.2rem;
+            border-bottom: 2px solid var(--primary-gold);
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+
+        .editorial-body {
+            font-size: 1.25rem;
+            text-align: justify;
+        }
+
+        .btn {
+            display: block;
+            
