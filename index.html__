@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tuluva Guardian | Official Editorial</title>
+
+    <meta property="og:title" content="The Tuluva Guardian: Official Editorial">
+    <meta property="og:description" content="Official mandate on the SSLC 525 shift and Tulu language status in Tulunad (Udupi / Mangalore).">
+    <meta property="og:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tulunad-editorial--/main/preview.png">
+    <meta property="og:url" content="https://tuluvaguardian.github.io/tulunad-editorial--/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/TuluvaGuardian/tulunad-editorial--/main/preview.png">
+
+    <style>
+        body { background-color: #000; color: #E0E0E0; font-family: serif; margin: 0; text-align: center; }
+        .header { border-bottom: 2px solid #D4AF37; padding: 40px; }
+        .gold-text { color: #D4AF37; letter-spacing: 2px; }
+        .location { color: #888; font-size: 0.9rem; margin-top: 10px; }
+        .content { max-width: 600px; margin: 40px auto; text-align: justify; padding: 20px; line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="gold-text">THE TULUVA GUARDIAN</h1>
+        <div class="location">OFFICIAL EDITORIAL BUREAU | TULUNAD (UDUPI / MANGALORE)</div>
+    </div>
+    <div class="content">
+        <h2>The SSLC 525 Shift</h2>
+        <p>The restructuring of the Karnataka SSLC marks distribution is an administrative maneuver that masks a deeper linguistic crisis. We advocate for Tulu to be elevated to First Language status.</p>
+    </div>
+</body>
+</html>
